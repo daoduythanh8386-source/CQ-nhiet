@@ -1,0 +1,6 @@
+{
+  "appId": "vn.oristar.qcnhietluyen",
+  "appName": "QC Nhiệt Luyện",
+  "webDir": "www",
+  "server": { "url": "https://qcnhietluyen.netlify.app", "cleartext": false, "allowNavigation": ["qcnhietluyen.netlify.app", "accounts.google.com", "*.googleapis.com"] }
+}
