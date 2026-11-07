@@ -1,12 +1,12 @@
 const { app, BrowserWindow, Menu, shell } = require('electron');
-const URL_APP = 'https://qcnhietluyen.netlify.app';
+const URL_APP = 'https://cqnhietluyen.netlify.app/';
 
 if (!app.requestSingleInstanceLock()) app.quit();
 
 function createWindow() {
   const win = new BrowserWindow({
     width: 1280, height: 860, minWidth: 900, minHeight: 600,
-    title: 'QC Nhiệt Luyện – Oristar',
+    title: 'CQ Nhiệt Luyện – Oristar',
     backgroundColor: '#17306b',
     autoHideMenuBar: true,
     webPreferences: { partition: 'persist:qcnhietluyen' }
