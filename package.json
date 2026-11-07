@@ -1,8 +1,8 @@
 {
-  "name": "qc-nhiet-luyen",
-  "productName": "QC Nhiệt Luyện",
+  "name": "CQ-nhiet-luyen",
+  "productName": "CQ Nhiệt Luyện",
   "version": "1.0.0",
-  "description": "QC Nhiệt Luyện – Oristar",
+  "description": "CQ Nhiệt Luyện – Oristar",
   "author": "Oristar",
   "main": "electron/main.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "vn.oristar.qcnhietluyen",
-    "productName": "QC Nhiệt Luyện",
+    "appId": "vn.oristar.cqnhietluyen",
+    "productName": "CQ Nhiệt Luyện",
     "files": [
       "electron/**/*"
     ],
