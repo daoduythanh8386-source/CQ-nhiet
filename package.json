@@ -22,60 +22,6 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "vn.oristar.cqnhietluyen",
-    "productName": "CQ Nhiệt Luyện",
-    "files": [
-      "electron/**/*"
-    ],
-    "win": {
-      "target": [
-        "nsis",
-        "portable"
-      ]
-    },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true
-    },
-    "mac": {
-      "target": [
-        "dmg"
-      ],
-      "category": "public.app-category.productivity"
-    },
-    "linux": {
-      "target": [
-        "AppImage"
-      ],
-      "category": "Utility"
-    }
-  }
-}
-{
-  "name": "CQ-nhiet-luyen",
-  "productName": "CQ Nhiệt Luyện",
-  "version": "1.0.0",
-  "description": "CQ Nhiệt Luyện – Oristar",
-  "author": "Oristar",
-  "main": "electron/main.js",
-  "scripts": {
-    "start": "electron .",
-    "build:win": "electron-builder --win nsis portable --publish never",
-    "build:mac": "electron-builder --mac dmg --x64 --arm64 --publish never",
-    "build:linux": "electron-builder --linux AppImage --publish never"
-  },
-  "dependencies": {
-    "@capacitor/android": "^6.1.2",
-    "@capacitor/cli": "^6.1.2",
-    "@capacitor/core": "^6.1.2",
-    "@capacitor/ios": "^6.1.2"
-  },
-  "devDependencies": {
-    "electron": "^31.7.0",
-    "electron-builder": "^24.13.3"
-  },
-  "build": {
     "appId": "vn.oristar.qcnhietluyen",
     "productName": "CQ Nhiệt Luyện",
     "icon": "icon.ico",
